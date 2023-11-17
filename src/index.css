@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#job {
+  height: 350px;
+  overflow: scroll; 
+}
+
+#jobDiv {
+display:inline-block;
+margin:50px;
+}
+
+#certDiv {
+  display:inline-block;
+  margin:50px;
+  }
+
+#jobdesc{
+  text-align: left;
+}
+
+
+
+.AppCert {
+  text-align: center;
+}
+
+.Form{
+  background-image: url("/public/2690.jpg");
+}
+
