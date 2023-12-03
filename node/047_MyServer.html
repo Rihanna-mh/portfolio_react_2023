@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>047_MyServer</title>
+</head>
+<body>
+
+    <div>
+        <h1>In Class form</h1>
+    </div>
+    <div>
+        <form action="/data" enctype="multipart/form-data" method="post">
+            <!-- name attribute is very important because w it's the key we use to fetch data on the server side
+            After all the data is created into an object, it will be sent to the server on this address "/data"  -->
+            <input type="text" name="first_name" id="first_name" placeholder="First">
+            <br>
+            <br>
+            <input type="text" name="last_name" id="last_name" placeholder="Last">
+            <br>
+            <br>
+            <input type="email" name="email" id="email" placeholder="example@example.com">
+            <br>
+            <br>
+            <input type="text" name="message_subject" id="message_subject" placeholder="Request">
+            <br>
+            <br>
+            <input type="text" name="message_text" id="message_text" placeholder="">
+            <br>
+            <br>
+            <input type="submit" value="Send Message" id="sub">
+        </form>
+    </div>
+    
+</body>
+</html>
