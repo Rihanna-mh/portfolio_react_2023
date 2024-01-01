@@ -1,4 +1,4 @@
-This project is a portfolio template made with React as frontend.
+This project is a portfolio template made with React as front-end and Node.js as back-end language.
 
 # Getting Started with Create React App
 
